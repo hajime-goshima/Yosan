@@ -6,7 +6,7 @@
                     <span v-text="title" class="title" />
                 </div>
                 <div class="col-sm-5 col-xs-24 sum-price-col">
-                    <span class="sum-price">{{ this.sumPrice }}</span>
+                    <span class="sum-price">¥{{ this.sumPrice }}</span>
                 </div>
             </div>
         </div> 
@@ -39,13 +39,14 @@ export default {
     name: 'yosan_view',
     data: function () {
         return {
-            title: 'タイトルです',
+            title: 'ここにタイトルを入力可能にする（TODO)',
             sum_yen: '30000',
             rows: [
-                {title: '行きの電車（新宿→成田空港)1', price: 1},
-                {title: '行きの電車（新宿→成田空港)2', price: 10},
-                {title: '行きの電車（新宿→成田空港)3', price: 100},
-                {title: '行きの電車（新宿→成田空港)4', price: 1000}
+                {title: '行きの交通費', price: 1350},
+                {title: '宿泊費（一泊二日）', price: 15000},
+                {title: 'レンタカー１日目', price: 8000},
+                {title: 'レンタカー２日目', price: 8000},
+                {title: '帰りの交通費', price: 1350}
             ],
             columns: [
                 {
