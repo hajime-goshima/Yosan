@@ -4,6 +4,11 @@ import router from './router'
 import store from './store'
 import './registerServiceWorker'
 
+// AT-UI
+import AtComponents from 'at-ui'
+import 'at-ui-style'    // Import CSS
+Vue.use(AtComponents)
+
 Vue.config.productionTip = false
 
 new Vue({
