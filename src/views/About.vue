@@ -8,7 +8,7 @@
         お買い物するモノをリスト化するときや、旅行の交通費を計算したいときなどのご利用いただけます。
       </p>
       <p>
-        Github: https://github.com/hajime-goshima/Yosan/tree/master
+        Github: https://github.com/hajime-goshima/Yosan/tree/master<br>
         Author: Goshima Hajime<br>
         Contact: goshima.hajime[at]gmail.com
       </p>
