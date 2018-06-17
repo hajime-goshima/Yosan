@@ -4,10 +4,11 @@
       <h1>Yosan - 予算算出アプリ</h1>
       <p>
         予算を計算するためのWEBフロントアプリケーションです。<br>
-        APIなどを用いたデータ保存は行いませんブラウザを更新すると初期化されます。<br>
+        APIなどを用いたデータ保存は行いません。ページを更新すると初期化されます。<br>
         お買い物するモノをリスト化するときや、旅行の交通費を計算したいときなどのご利用いただけます。
       </p>
       <p>
+        Github: https://github.com/hajime-goshima/Yosan/tree/master
         Author: Goshima Hajime<br>
         Contact: goshima.hajime[at]gmail.com
       </p>
